@@ -46,7 +46,7 @@ export const LinkContainer = styled.li<LinkContainerProps>`
     color: white;
     border-radius: 8px;
     background-color: ${(props) =>
-      props.background == 'github' ? '#212529' : '#0a58ca'};
+      props.background === 'github' ? '#212529' : '#0a58ca'};
     padding: 8px;
     transition: ease all 0.3s;
     justify-content: center;
